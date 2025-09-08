@@ -15,10 +15,61 @@
   <body>
     <main>
       <h1>Elisa &amp; Tommaso</h1>
-      <div>
-        <img src="./android-chrome-192x192.png" alt="ET" />
+      <picture>
+        <source
+          srcset="./images/hero-image_192.jpg 1x, ./images/hero-image_192-2x.jpg 2x, ./images/hero-image_192-3x.jpg 3x"
+          media="(max-width: 480px) and (orientation: portrait)"
+          type="image/jpeg"
+        />
+        <source
+          srcset="./images/hero-image_192.jpg 1x, ./images/hero-image_192-2x.jpg 2x, ./images/hero-image_192-3x.jpg 3x"
+          media="(max-height: 480px) and (orientation: landscape)"
+          type="image/jpeg"
+        />
+        <img
+          class="hero-image"
+          srcset="./images/hero-image_516.jpg 1x, ./images/hero-image_516-2x.jpg 2x, ./images/hero-image_516-3x.jpg 3x"
+          alt="Elisa e Tommaso"
+        />
+      </picture>
+      <p class="wip">
+        Sito in costruzione
+        <br />
+        <br />
+        4 Ottobre 2025
+      </p>
+      <div class="card">
+        <div>ore 11:00 Comune di Avigliana</div>
+        <div>
+          <a href="https://maps.app.goo.gl/EaKFrk3N2kihWKXq6" target="_blank">Piazza Conte Rosso 7 Avigliana</a>
+        </div>
+        <br />
+        <div>ore 12:15 Ristorante Canton Divino</div>
+        <div><a href="https://maps.app.goo.gl/Nuk7da6ZbyeVGZUN6" target="_blank">Via Umberto I 27 Avigliana</a></div>
+        <br />
+        <div>Volete farci un regalo?</div>
+        <table>
+          <tbody>
+            <tr>
+              <th>Beneficiari:</th>
+              <td>Deraco Elisa, Ricci Tommaso</td>
+            </tr>
+            <tr>
+              <th>IBAN:</th>
+              <td>IT63X0538710100000004558731</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <p class="wip">Sito in costruzione</p>
+      <p class="wip">Parcheggi:</p>
+      <ul style="margin-top: 0">
+        <li>
+          <a href="https://maps.app.goo.gl/Kcrc8NgrWeSsJPHn7" target="_blank">Piazza Conte Rosso</a> (davanti al comune)
+        </li>
+        <li>
+          <a href="https://maps.app.goo.gl/5wSEQH2CJP48XAJm9" target="_blank">Piazzale delle Buone Volont&agrave;</a>
+        </li>
+      </ul>
     </main>
   </body>
 </html>
