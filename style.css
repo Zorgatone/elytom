@@ -12,3 +12,11 @@ body {
   background-color: #ffddff;
   color: #cf00cf;
 }
+
+main {
+  text-align: center;
+}
+
+.wip {
+  font-weight: bold;
+}
